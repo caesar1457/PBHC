@@ -23,6 +23,8 @@ python 1080_balls_of_solitude.py # or `python joint_monkey.py`
 cd ../../..
 
 
+export LD_LIBRARY_PATH=/home/caesar/anaconda3/envs/pbhc/lib:$LD_LIBRARY_PATH
+
 # Install PBHC
 pip install -e .
 pip install -e humanoidverse/isaac_utils
